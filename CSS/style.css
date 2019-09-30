@@ -1,0 +1,96 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #fbeee6; }
+
+.container {
+  background: #f6ddcc;
+  width: 350px;
+  height: 400px;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 25px;
+  border: solid 5px #a93226;
+  margin-left: 500px;
+  margin-top: 100px;
+  border-radius: 50px; }
+
+h1 {
+  color: #ba4a00;
+  background: #f6ddcc;
+  border-radius: 50px;
+  margin-left: 100px;
+  margin-top: 30px; }
+
+.menuN {
+  width: 30px;
+  height: 30px;
+  margin-left: 70px; }
+
+.menuPos {
+  background: #f6ddcc;
+  color: #626567; }
+  .menuPos b {
+    background: #f6ddcc;
+    float: right;
+    margin-right: 15px; }
+
+#getBill {
+  width: 120px;
+  height: 40px;
+  float: right;
+  margin-right: 30px;
+  margin-top: 30px;
+  border-radius: 15px;
+  font-size: 18px;
+  font-family: cursive;
+  color: #a04000;
+  background: #edbb99;
+  cursor: pointer;
+  outline: none; }
+
+#container2 {
+  position: absolute;
+  display: none;
+  background: #f6ddcc;
+  width: 500px;
+  height: 150px;
+  top: 250px;
+  left: 425px;
+  font-family: cursive;
+  font-weight: bold;
+  font-size: 25px;
+  border: solid 5px #a93226;
+  border-radius: 50px;
+  -webkit-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s; }
+  #container2 #close {
+    width: 60px;
+    height: 60px;
+    border-radius: 0px 41px 0px 30px;
+    border: solid 1px #a93226;
+    background: #a93226;
+    float: right;
+    outline: none;
+    font-size: 37px;
+    font-family: cursive;
+    color: #fbeee6; }
+  #container2 h2 {
+    color: #ba4a00;
+    background: #f6ddcc;
+    margin-left: 215px;
+    margin-top: 10px;
+    border-radius: 50px;
+    width: 50px; }
+  #container2 p {
+    background: #f6ddcc;
+    color: #626567;
+    margin-left: 120px;
+    margin-top: 20px;
+    width: 200px;
+    float: left; }
+    #container2 p #totalCost {
+      background: #f6ddcc; }

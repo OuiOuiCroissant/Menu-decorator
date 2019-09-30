@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="CSS/style.css">
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>MENU</h1>
+      <input type="number" id="latte" class="menuN" min="0" value="0" />
+      <label for="latte" class="menuPos">Latte <b>35</b></label>
+      <br>
+      <input type="number" id="cappucino" class="menuN" min="0" value="0"/>
+      <label for="cappucino" class="menuPos">Cappucino <b>30</b></label>
+      <br>
+      <input type="number" id="espresso" class="menuN" min="0" value="0"/>
+      <label for="espreso" class="menuPos">Espresso <b>25</b></label>
+      <br>
+      <input type="number" id="filter" class="menuN" min="0" value="0"/>
+      <label for="filter" class="menuPos">Filter <b>30</b></label>
+      <br>
+      <input type="number" id="flat" class="menuN" min="0" value="0"/>
+      <label for="flat" class="menuPos">Flat White <b>40</b></label>
+      <input type="button" id="getBill" value="Get Bill" onclick="getBill()">
+    </div>
+    <div id="container2">
+      <input type="button" id="close" onclick="exit()" value="x">
+      <h2>Bill</h2>
+      <p>Total cost: <span id="totalCost"></span></p>
+    </div>
+    <script type="text/javascript" src="script/script.js"></script>
+  </body>
+</html>
